@@ -2,9 +2,6 @@
 
 > **对标论文**: Feng, S., Shi, W., Wang, Y., Ding, W., Balachandran, V., & Tsvetkov, Y. (2024).
 > *Don't Hallucinate, Abstain: Identifying LLM Knowledge Gaps via Multi-LLM Collaboration.* ACL 2024, pp. 14664-14690.
-
-**作者**: [Your Name] &nbsp;|&nbsp; **日期**: 2026-05-26 &nbsp;|&nbsp; **课程**: NLP 复现项目
-
 ---
 
 ## 摘要
