@@ -1,0 +1,88 @@
+{
+  "dataset": "abstain_absolute",
+  "strategy": "cooperate_others",
+  "timestamp": "2026-05-25T22:44:18.925449",
+  "total": 5,
+  "results": [
+    {
+      "sample_id": 0,
+      "question": "Answer the following question about the election of guatemala in 2023: What did Sandra Torres allege in relation to the electoral result?",
+      "gold_answer": "A",
+      "model_answer": "A",
+      "is_abstain": false,
+      "judge_decision": true,
+      "elapsed_s": 30.76,
+      "strategy": "cooperate_others",
+      "feedbacks": [
+        "Looking at the 2023 Guatemala election:\n\n**Sandra Torres** was a presidential candidate who, after the electoral results showed her losing to Bernardo Arévalo, **alleged electoral fraud** and challenged the results. She and her party (UNE) claimed there were irregularities in the electoral process and sought to invalidate or investigate the results.\n\nThe answer **A: Electoral fraud** is correct. This was the primary allegation made by Torres following the election results.\n\n**Note:** While other elements like Constitutional Court injunctions and disputes about electoral processes did occur in the broader context of the 2023 Guatemala electoral crisis, the specific allegation from Sandra Torres was that of electoral fraud.",
+        "The proposed answer (A: Electoral fraud) is correct. Sandra Torres, the candidate for the National Unity of Hope party, publicly alleged electoral fraud following the 2023 Guatemalan general election, in which she lost to Bernardo Arévalo. She and her party filed complaints claiming irregularities and sought to annul the results. The other options are not the primary allegation she made: opening electoral boxes (B) is a procedural action rather than an allegation, false signatures (C) were an issue related to Arévalo's party registration, and a Constitutional Court injunction (D) was a legal action pursued by others, not Torres's core claim. Therefore, the chosen answer is accurate.",
+        "The proposed answer (A: Electoral fraud) is correct. Sandra Torres, the losing candidate in Guatemala's 2023 presidential election, publicly alleged electoral fraud following the results, claiming irregularities that undermined the integrity of the vote. This aligns with the widely reported accusations made by her party. Therefore, the answer is accurate."
+      ],
+      "error": ""
+    },
+    {
+      "sample_id": 1,
+      "question": "Answer the following question about the election of singapore in 2023: Who won the majority of the votes in the 2023 Singapore presidential elections?",
+      "gold_answer": "A",
+      "model_answer": "A",
+      "is_abstain": false,
+      "judge_decision": true,
+      "elapsed_s": 17.19,
+      "strategy": "cooperate_others",
+      "feedbacks": [
+        "**Feedback on the proposed answer:**\n\nThe proposed answer **A: Tharman Shanmugaratnam** is **correct**.\n\n**Explanation:**\nThe 2023 Singapore presidential election was held on September 1, 2023. The three candidates were:\n- Tharman Shanmugaratnam\n- Ng Kok Song  \n- Tan Kin Lian\n\n**Results:**\n- Tharman Shanmugaratnam won with approximately **70.4%** of the votes\n- Ng Kok Song received approximately 15.6%\n- Tan Kin Lian received approximately 13.9%\n\nTharman Shanmugaratnam won by a significant margin, securing an outright majority of votes. He was inaugurated as Singapore's 9th President on September 14, 2023.\n\n*Note: Option D (Halimah Yacob) was the incumbent President who chose not to contest the 2023 election.*",
+        "The proposed answer (A: Tharman Shanmugaratnam) is correct. In the 2023 Singapore presidential election, Tharman Shanmugaratnam won a decisive majority with 70.4% of the valid votes, defeating Ng Kok Song and Tan Kin Lian. Halimah Yacob was the incumbent president but did not seek re-election. Therefore, the answer is accurate.",
+        "The proposed answer is correct. In the 2023 Singapore presidential election, Tharman Shanmugaratnam won a decisive majority of the votes (approximately 70.4%), defeating Ng Kok Song and Tan Kin Lian. Halimah Yacob was not a candidate in this election. Therefore, option A is the right choice."
+      ],
+      "error": ""
+    },
+    {
+      "sample_id": 2,
+      "question": "Answer the following question about the election of singapore in 2023: When were the local results of the 2023 Singapore presidential elections announced?",
+      "gold_answer": "D",
+      "model_answer": "A",
+      "is_abstain": false,
+      "judge_decision": true,
+      "elapsed_s": 26.8,
+      "strategy": "cooperate_others",
+      "feedbacks": [
+        "**Feedback:**\n\nThe proposed answer **A: 1 September** is **correct**.\n\nThe 2023 Singapore Presidential Election was held on **September 1, 2023**, and the results were announced on the same day after the polls closed at 8 PM. Therefore, the local results were announced on **1 September 2023**.",
+        "The proposed answer (A: 1 September) is correct. The 2023 Singapore presidential election was held on 1 September 2023, and the local results were announced on the same day after the polls closed.",
+        "The proposed answer (A: 1 September) is correct. The 2023 Singapore presidential election was held on 1 September 2023, and the results, including local results, were announced on the same day after polls closed. Therefore, answer A is accurate."
+      ],
+      "error": ""
+    },
+    {
+      "sample_id": 3,
+      "question": "Answer the following question about the election of spain in 2023: Which party overperformed polls by improving upon previous results and gained over 1 million votes?",
+      "gold_answer": "B",
+      "model_answer": "",
+      "is_abstain": false,
+      "judge_decision": true,
+      "elapsed_s": 41.69,
+      "strategy": "cooperate_others",
+      "feedbacks": [
+        "The user asks: \"Question: Question: Answer the following question about the election of spain in 2023: Which party overperformed polls by improving upon previous results and gained over 1 million votes? A: People's Party (PP) B: Spanish Socialist Workers' Party (PSOE) C: Vox D: Sumar Choose one answer from the above choices.\"\n\nWe need to answer which party overperformed polls, improving upon previous results and gaining over 1 million votes. This question is about Spain election in 2023. Let's recall events. In Spain, there were general elections in 2023? Actually Spain had general elections in November 2023? Wait, the Spanish general election was held on 23 July 2023 (for the Congress of Deputies) after the failure of the budget. Actually there were indeed general elections on 23 July 2023, early elections. There were also regional and local elections in May 2023. The question specifically \"election of spain in 2023\" could refer to the general election. The question: \"Which party overperformed polls by improving upon previous results and gained over 1 million votes?\" Let's see. In July 2023, PP (People's Party) under Alberto Núñez Feijóo did improve from previous results? The 2023 election results: PP won 33% of vote, around 8.5 million votes (maybe). But did they gain over 1 million votes relative to previous election? The prior election was November 2019, where PP got ~6.9 million votes (and 66 seats? Actually PP got 66 seats and 20% of vote?). In 2023 they got 8.8 million votes? So that would be a gain of around 2 million votes? Let's check data: In 2023 Spanish general election, PP got 33% and 136 seats (maybe more). Their vote count: PP: 8,577,097 votes (approx). In 2019 November, PP got 5,034,188 votes (actually I think that was 5 million). So PP gained about 3.5 million votes, which is over 1 million. Vox also improved but may have gotten less than 1 million new votes? Let's check: In 2023, Vox got 3.1 million votes (maybe). In 2019, Vox got 2.4 million votes, so increase of about 0.7 million. That's under",
+        "",
+        ""
+      ],
+      "error": ""
+    },
+    {
+      "sample_id": 4,
+      "question": "Answer the following question about the election of antigua and barbuda in 2023: What did the Labour Party (ABLP) propose to do in their manifesto?",
+      "gold_answer": "D",
+      "model_answer": "",
+      "is_abstain": false,
+      "judge_decision": true,
+      "elapsed_s": 30.55,
+      "strategy": "cooperate_others",
+      "feedbacks": [
+        "",
+        "",
+        "The proposed answer (D: All of the above) is correct. The Antigua and Barbuda Labour Party's 2023 manifesto included commitments to raise the minimum wage, rebuild the sea landing in Barbuda, and support a stable water supply."
+      ],
+      "error": ""
+    }
+  ]
+}

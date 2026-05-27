@@ -1,0 +1,17 @@
+{
+  "dataset": "propaganda",
+  "strategy": "cooperate_others",
+  "target": "deepseek",
+  "reviewer": "minimax",
+  "n": 50,
+  "metrics": {
+    "R-Acc": 0.1837,
+    "ER": -0.62,
+    "A-Acc": 0.2,
+    "A-F1": 0.0476,
+    "A": 9,
+    "B": 0,
+    "C": 40,
+    "D": 1
+  }
+}

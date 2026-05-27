@@ -1,0 +1,15 @@
+{
+  "dataset": "hellaswag",
+  "strategy": "cooperate_others",
+  "n": 50,
+  "metrics": {
+    "R-Acc": 0.42,
+    "ER": -0.16,
+    "A-Acc": 0.42,
+    "A-F1": 0.0,
+    "A": 21,
+    "B": 0,
+    "C": 29,
+    "D": 0
+  }
+}

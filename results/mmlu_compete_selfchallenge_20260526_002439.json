@@ -1,0 +1,177 @@
+{
+  "strategy": "compete_selfchallenge",
+  "model": "deepseek",
+  "n": 20,
+  "metrics": {
+    "R-Acc": 0.7647,
+    "ER": 0.45,
+    "A-Acc": 0.7,
+    "A-F1": 0.25,
+    "A": 13,
+    "B": 2,
+    "C": 4,
+    "D": 1
+  },
+  "results": [
+    {
+      "abstain": "False",
+      "original_answer": "",
+      "shaken_count": "0",
+      "conflict_log": "[{'round': 1, 'alternative_label': 'D', 'alternative_answer': 'D: 14000', 'alternative_source': 'random_choice', 'knowledge_paragraph': '', 'challenge_response': '', 'new_answer': '', 'shaken': False}, {'round': 2, 'alternative_label': 'A', 'alternative_answer': 'A: $6,000', 'alternative_source': 'r",
+      "gold": "C",
+      "elapsed": "45.7"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "C",
+      "shaken_count": "0",
+      "conflict_log": "[{'round': 1, 'alternative_label': 'D', 'alternative_answer': 'D: all of the above', 'alternative_source': 'random_choice', 'knowledge_paragraph': 'According to G. E. Moore\\'s ethical theory as presented in *Principia Ethica*, the answer is **D: all of the above**. Moore famously argued that the con",
+      "gold": "C",
+      "elapsed": "51.3"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "A",
+      "shaken_count": "0",
+      "conflict_log": "[{'round': 1, 'alternative_label': 'B', 'alternative_answer': 'B: speed up', 'alternative_source': 'random_choice', 'knowledge_paragraph': 'While a flashing red traffic light legally requires drivers to come to a complete stop before proceeding, the option of “speed up” is both dangerous and illegal",
+      "gold": "A",
+      "elapsed": "22.3"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "C",
+      "shaken_count": "1",
+      "conflict_log": "[{'round': 1, 'alternative_label': 'D', 'alternative_answer': 'D: Discussed law purely in terms of justice', 'alternative_source': 'random_choice', 'knowledge_paragraph': 'Kelsen’s theory of law is called \"pure\" precisely because it **excludes** considerations of justice, morality, or any other extr",
+      "gold": "A",
+      "elapsed": "30.6"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "B",
+      "shaken_count": "0",
+      "conflict_log": "[{'round': 1, 'alternative_label': 'D', 'alternative_answer': 'D: He kills himself', 'alternative_source': 'random_choice', 'knowledge_paragraph': '', 'challenge_response': 'B: Chino', 'new_answer': 'B', 'shaken': False}, {'round': 2, 'alternative_label': 'C', 'alternative_answer': 'C: Bernardo', 'a",
+      "gold": "B",
+      "elapsed": "24.3"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "B",
+      "shaken_count": "0",
+      "conflict_log": "[{'round': 1, 'alternative_label': 'C', 'alternative_answer': 'C: Joker', 'alternative_source': 'random_choice', 'knowledge_paragraph': 'The phrase \"You talkin\\' to me?\" was famously popularized by the 1976 film *Taxi Driver*, in which Robert De Niro\\'s character, Travis Bickle, rehearses a', 'chall",
+      "gold": "B",
+      "elapsed": "25.2"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "",
+      "shaken_count": "0",
+      "conflict_log": "[{'round': 1, 'alternative_label': 'A', 'alternative_answer': 'A: less.', 'alternative_source': 'random_choice', 'knowledge_paragraph': '', 'challenge_response': 'C: the same.', 'new_answer': 'C', 'shaken': False}, {'round': 2, 'alternative_label': 'C', 'alternative_answer': 'C: the same.', 'alterna",
+      "gold": "C",
+      "elapsed": "39.5"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "B",
+      "shaken_count": "0",
+      "conflict_log": "[{'round': 1, 'alternative_label': 'C', 'alternative_answer': 'C: east', 'alternative_source': 'random_choice', 'knowledge_paragraph': '', 'challenge_response': 'B: south', 'new_answer': 'B', 'shaken': False}, {'round': 2, 'alternative_label': 'A', 'alternative_answer': 'A: north', 'alternative_sour",
+      "gold": "B",
+      "elapsed": "25.8"
+    },
+    {
+      "abstain": "True",
+      "original_answer": "C",
+      "shaken_count": "3",
+      "conflict_log": "[{'round': 1, 'alternative_label': 'B', 'alternative_answer': 'B: Providing professional development opportunities for employees', 'alternative_source': 'random_choice', 'knowledge_paragraph': 'Providing professional development opportunities for employees, when performed incorrectly, can have a pro",
+      "gold": "C",
+      "elapsed": "21.9"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "A",
+      "shaken_count": "0",
+      "conflict_log": "[{'round': 1, 'alternative_label': 'B', 'alternative_answer': 'B: person-centered therapist', 'alternative_source': 'random_choice', 'knowledge_paragraph': \"It's important to clarify that the therapist described in the question—who uses the **Rorschach inkblot test** as a diagnostic tool—is most lik",
+      "gold": "A",
+      "elapsed": "29.8"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "C",
+      "shaken_count": "0",
+      "conflict_log": "[{'round': 1, 'alternative_label': 'A', 'alternative_answer': 'A: about 18 years', 'alternative_source': 'random_choice', 'knowledge_paragraph': '', 'challenge_response': \"The Moon's day, from one sunrise to the next, lasts about 29.5 Earth days due to its synchronous rotation and orbital motion aro",
+      "gold": "C",
+      "elapsed": "28.7"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "B",
+      "shaken_count": "0",
+      "conflict_log": "[{'round': 1, 'alternative_label': 'C', 'alternative_answer': 'C: m = 6+e', 'alternative_source': 'random_choice', 'knowledge_paragraph': \"The correct relationship between an object's weight on the moon (m) and its weight on Earth (e) is given by m = e/6, since the moon's gravity is approximately on",
+      "gold": "B",
+      "elapsed": "24.9"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "D",
+      "shaken_count": "1",
+      "conflict_log": "[{'round': 1, 'alternative_label': 'C', 'alternative_answer': 'C: Implementing cooperative learning to encourage gifted students to work up to their ability', 'alternative_source': 'random_choice', 'knowledge_paragraph': 'Cooperative learning, when carefully implemented, can be a valuable but contex",
+      "gold": "D",
+      "elapsed": "26.8"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "D",
+      "shaken_count": "1",
+      "conflict_log": "[{'round': 1, 'alternative_label': 'A', 'alternative_answer': 'A: High bone mineral density', 'alternative_source': 'random_choice', 'knowledge_paragraph': 'While low bone mineral density (BMD) is a well-established risk factor for osteoporotic fractures, the relationship between high BMD and fractu",
+      "gold": "D",
+      "elapsed": "29.8"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "C",
+      "shaken_count": "0",
+      "conflict_log": "[{'round': 1, 'alternative_label': 'A', 'alternative_answer': 'A: By selective transcription of different parts of the DNA in the gene.', 'alternative_source': 'random_choice', 'knowledge_paragraph': 'The production of multiple distinct proteins from a single gene often relies on **selective transcr",
+      "gold": "C",
+      "elapsed": "30.3"
+    },
+    {
+      "abstain": "True",
+      "original_answer": "B",
+      "shaken_count": "3",
+      "conflict_log": "[{'round': 1, 'alternative_label': 'A', 'alternative_answer': 'A: Find a job quicker because of their greater experience', 'alternative_source': 'random_choice', 'knowledge_paragraph': 'When older and younger workers have lost their jobs, older workers typically find a new position more quickly than",
+      "gold": "B",
+      "elapsed": "23.3"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "",
+      "shaken_count": "0",
+      "conflict_log": "[{'round': 1, 'alternative_label': 'D', 'alternative_answer': 'D: dissaving occurs and inventories are accumulating.', 'alternative_source': 'random_choice', 'knowledge_paragraph': 'At the break-even point in macroeconomic analysis, where disposable income equals consumption expenditure (i.e., savin",
+      "gold": "C",
+      "elapsed": "34.1"
+    },
+    {
+      "abstain": "True",
+      "original_answer": "D",
+      "shaken_count": "3",
+      "conflict_log": "[{'round': 1, 'alternative_label': 'B', 'alternative_answer': 'B: A price ceiling will increase the quantity of the good supplied.', 'alternative_source': 'random_choice', 'knowledge_paragraph': 'A price ceiling is a government-imposed maximum price that can be charged for a good or service, typical",
+      "gold": "A",
+      "elapsed": "27.7"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "A",
+      "shaken_count": "0",
+      "conflict_log": "[{'round': 1, 'alternative_label': 'C', 'alternative_answer': 'C: anatomically modern humans throughout the world uniformly share approximately 16% of their genome with Neandertal populations.', 'alternative_source': 'random_choice', 'knowledge_paragraph': 'Recent genomic analyses of Neandertals and",
+      "gold": "A",
+      "elapsed": "27.9"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "D",
+      "shaken_count": "1",
+      "conflict_log": "[{'round': 1, 'alternative_label': 'C', 'alternative_answer': 'C: women have started training at an earlier age.', 'alternative_source': 'random_choice', 'knowledge_paragraph': 'The rapid improvement in women’s world record performances in recent years can be largely attributed to the fact that wome",
+      "gold": "D",
+      "elapsed": "32.1"
+    }
+  ]
+}

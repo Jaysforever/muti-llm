@@ -1,0 +1,97 @@
+{
+  "dataset": "hellaswag",
+  "strategy": "compete",
+  "n": 10,
+  "metrics": {
+    "R-Acc": 0.5,
+    "ER": 0.0,
+    "A-Acc": 0.4,
+    "A-F1": 0.0,
+    "A": 4,
+    "B": 2,
+    "C": 4,
+    "D": 0
+  },
+  "results": [
+    {
+      "abstain": "False",
+      "original_answer": "C",
+      "shaken_count": "1",
+      "conflict_log": "[{'round': 1, 'alternative_label': 'D', 'alternative_answer': 'D: Accessorize with ties, buttons, necklaces, etc. [substeps] Look for a vintage or classic look when choosing an unconventional engagement ring.', 'alternative_source': 'random_choice', 'knowledge_paragraph': 'When choosing an unconvent",
+      "gold": "C",
+      "elapsed": "37.9"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "C",
+      "shaken_count": "1",
+      "conflict_log": "[{'round': 1, 'alternative_label': 'A', 'alternative_answer': 'A: then prepare the ingredients to bake.', 'alternative_source': 'random_choice', 'knowledge_paragraph': 'The sequence described—licking mixing spoons and removing a baking sheet from the oven—implies that the girls have already complete",
+      "gold": "C",
+      "elapsed": "23.4"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "",
+      "shaken_count": "0",
+      "conflict_log": "[{'round': 1, 'alternative_label': 'A', 'alternative_answer': 'A: Set the dough over parchment paper and cut it into diamond shapes. [title] Preheat the oven to 350ºf/170ºc.', 'alternative_source': 'random_choice', 'knowledge_paragraph': 'To shape the puff pastry into attractive bases for your mini ",
+      "gold": "C",
+      "elapsed": "30.0"
+    },
+    {
+      "abstain": "True",
+      "original_answer": "D",
+      "shaken_count": "2",
+      "conflict_log": "[{'round': 1, 'alternative_label': 'A', 'alternative_answer': 'A: [title] Check for a link to an existing website. [step] The link will be located in the banner or text field on your admin area.', 'alternative_source': 'random_choice', 'knowledge_paragraph': 'To add a Twitter badge to your website, ",
+      "gold": "D",
+      "elapsed": "28.4"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "",
+      "shaken_count": "0",
+      "conflict_log": "[{'round': 1, 'alternative_label': 'A', 'alternative_answer': 'A: continues playing and looking off into the distance.', 'alternative_source': 'random_choice', 'knowledge_paragraph': \"The man continues playing the harmonica, his fingers moving deftly over the instrument's metal reeds as he sustains ",
+      "gold": "C",
+      "elapsed": "32.2"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "D",
+      "shaken_count": "1",
+      "conflict_log": "[{'round': 1, 'alternative_label': 'C', 'alternative_answer': 'C: The most preferred course for college students is basic physics. [substeps] Keep in mind that the requirements vary between schools.', 'alternative_source': 'random_choice', 'knowledge_paragraph': 'Basic physics is often the most pref",
+      "gold": "D",
+      "elapsed": "27.9"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "",
+      "shaken_count": "0",
+      "conflict_log": "[{'round': 1, 'alternative_label': 'B', 'alternative_answer': 'B: ) are you celebrating anything in particular? Can that tie it into the theme? Is there a guest of honor? Can that tie into the theme? [title] Decide on a guest list. [step] This can be hard, but do', 'alternative_source': 'random_choi",
+      "gold": "B",
+      "elapsed": "35.2"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "D",
+      "shaken_count": "0",
+      "conflict_log": "[{'round': 1, 'alternative_label': 'A', 'alternative_answer': \"A: [title] Now let's import files like file explorer, which includes the html files, etc, for. [title] Do it! [step] Go to start run/turn on add/remove system utilities, open start/defrag and copy onl\", 'alternative_source': 'random_choi",
+      "gold": "D",
+      "elapsed": "26.4"
+    },
+    {
+      "abstain": "True",
+      "original_answer": "C",
+      "shaken_count": "3",
+      "conflict_log": "[{'round': 1, 'alternative_label': 'D', 'alternative_answer': 'D: spits the mouthwash on the ground.', 'alternative_source': 'random_choice', 'knowledge_paragraph': 'After taking a drink of mouthwash, the girl in the orange shirt promptly spits the liquid onto the ground. This action is consistent w",
+      "gold": "C",
+      "elapsed": "21.5"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "",
+      "shaken_count": "0",
+      "conflict_log": "[{'round': 1, 'alternative_label': 'A', 'alternative_answer': 'A: shows a larger knife with a knob, and the boy and the boy talk inside a bathroom.', 'alternative_source': 'random_choice', 'knowledge_paragraph': \"After wrapping the boy scout's bleeding hand in the kitchen, the man retrieves a larger",
+      "gold": "D",
+      "elapsed": "35.3"
+    }
+  ]
+}

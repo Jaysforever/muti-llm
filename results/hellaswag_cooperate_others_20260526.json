@@ -1,0 +1,117 @@
+{
+  "dataset": "hellaswag",
+  "strategy": "cooperate_others",
+  "n": 10,
+  "metrics": {
+    "R-Acc": 0.6,
+    "ER": 0.2,
+    "A-Acc": 0.6,
+    "A-F1": 0.0,
+    "A": 6,
+    "B": 0,
+    "C": 4,
+    "D": 0
+  },
+  "results": [
+    {
+      "abstain": "False",
+      "original_answer": "C",
+      "judge_decision": "None",
+      "judge_raw": "",
+      "feedbacks": "['The proposed answer C is correct.\\n\\n**Reasoning:**\\n- The main step instructs to \"take notice of their favorite colors\" when choosing an unconventional engagement ring\\n- Option C directly aligns with this: \"Take notice of the current color of their jewelry and base your decision on that\"\\n- Opti",
+      "reviewer_models": "['minimax', 'mistral', 'chatgpt']",
+      "gold": "C",
+      "elapsed": "31.0"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "C",
+      "judge_decision": "True",
+      "judge_raw": "A. True",
+      "feedbacks": "['The question describes a sequence: \"The two girls sit in front of the oven licking their mixing spoons. The two girls remove the baking sheet from the oven. the two girls\"\\n\\nWe are given four answer choices:\\n\\nA: then prepare the ingredients to bake.\\nB: grab a baking sheet and position it on th",
+      "reviewer_models": "['minimax', 'mistral', 'chatgpt']",
+      "gold": "C",
+      "elapsed": "26.7"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "",
+      "judge_decision": "None",
+      "judge_raw": "",
+      "feedbacks": "['We have a user query: \"Question: Question: [header] How to make mini vegetable tarts [title] Prepare the puff pastry dough. [step] If the dough was frozen, have it defrost overnight. Roll out the puff pastry dough in a 12 x 8 inch rectangle using a rolling pin. A: Set the dough over parchment pape",
+      "reviewer_models": "['minimax', 'mistral', 'chatgpt']",
+      "gold": "C",
+      "elapsed": "46.6"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "D",
+      "judge_decision": "True",
+      "judge_raw": "A. True",
+      "feedbacks": "['**Feedback:**  \\n\\nThe answer **D** is the correct choice.  \\n\\nWhen adding a Twitter badge to a website, one common workflow is to open two browser tabs:  \\n\\n1. In the first tab you log into your site’s admin panel.  \\n2. In the second tab you go to **twitter.com**, sign into the Twitter account",
+      "reviewer_models": "['minimax', 'mistral', 'chatgpt']",
+      "gold": "D",
+      "elapsed": "27.5"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "",
+      "judge_decision": "None",
+      "judge_raw": "",
+      "feedbacks": "['', '', '']",
+      "reviewer_models": "['minimax', 'mistral', 'chatgpt']",
+      "gold": "C",
+      "elapsed": "34.6"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "D",
+      "judge_decision": "True",
+      "judge_raw": "A. True",
+      "feedbacks": "['The answer D is correct. \\n\\nThe statement accurately describes key characteristics of U.S. military service academies (such as West Point, Naval Academy, Air Force Academy, etc.):\\n- They provide full four-year scholarships to admitted students\\n- Graduates typically commit to 5+ years of active ",
+      "reviewer_models": "['minimax', 'mistral', 'chatgpt']",
+      "gold": "D",
+      "elapsed": "20.8"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "",
+      "judge_decision": "None",
+      "judge_raw": "",
+      "feedbacks": "['', '', '']",
+      "reviewer_models": "['minimax', 'mistral', 'chatgpt']",
+      "gold": "B",
+      "elapsed": "32.3"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "D",
+      "judge_decision": "True",
+      "judge_raw": "A. True",
+      "feedbacks": "['Looking at this question about creating a self-extraction file with IE Express, I can confirm that **Answer D is correct**.\\n\\n**Feedback:**\\n\\nOption D is the correct answer because:\\n\\n1. It specifically mentions the **\"IE Express Wizard\"** - which is the standard interface for creating self-ext",
+      "reviewer_models": "['minimax', 'mistral', 'chatgpt']",
+      "gold": "D",
+      "elapsed": "21.9"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "C",
+      "judge_decision": "True",
+      "judge_raw": "A. True",
+      "feedbacks": "['The proposed answer C appears to be correct.\\n\\n**Reasoning:**\\n- Option C (\"swishes it around in her mouth and spits it out into a sink\") describes the normal, expected behavior when using mouthwash. This is the standard way people use mouthwash as part of oral hygiene.\\n- Option A (wiping mouth ",
+      "reviewer_models": "['minimax', 'mistral', 'chatgpt']",
+      "gold": "C",
+      "elapsed": "22.6"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "",
+      "judge_decision": "None",
+      "judge_raw": "The correct answer is D, as it describes the logical continuation where the adult demonstrates trimming a wood rod with a knife, resulting in the boy cutting his finger again, and the man wraps the injury. This aligns with the initial events of the boy showing tools and the man wrapping his bleeding",
+      "feedbacks": "['We need to parse the question. The user says:\\n\\n\"Question: Question: A man and a boy scout talk in a kitchen, then the boy scout shows an electric trimmer, a machete and a big knife, and the man shows a rod and a small knife. Then, the boy shows his hand bleeding, after the man wraps the bleeding",
+      "reviewer_models": "['minimax', 'mistral', 'chatgpt']",
+      "gold": "D",
+      "elapsed": "39.4"
+    }
+  ]
+}

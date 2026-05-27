@@ -1,0 +1,15 @@
+{
+  "dataset": "k-crosswords",
+  "strategy": "cooperate_others",
+  "n": 50,
+  "metrics": {
+    "R-Acc": 0.0816,
+    "ER": -0.82,
+    "A-Acc": 0.1,
+    "A-F1": 0.0426,
+    "A": 4,
+    "B": 0,
+    "C": 45,
+    "D": 1
+  }
+}

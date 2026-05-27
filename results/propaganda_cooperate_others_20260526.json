@@ -1,0 +1,117 @@
+{
+  "dataset": "propaganda",
+  "strategy": "cooperate_others",
+  "n": 10,
+  "metrics": {
+    "R-Acc": 0.1111,
+    "ER": -0.7,
+    "A-Acc": 0.2,
+    "A-F1": 0.2,
+    "A": 1,
+    "B": 0,
+    "C": 8,
+    "D": 1
+  },
+  "results": [
+    {
+      "abstain": "False",
+      "original_answer": "",
+      "judge_decision": "None",
+      "judge_raw": "The correct answer is C: Name Calling Labeling. The text uses derogatory labels and stereotypes, such as mocking former President Obama's name and implying that all devout Muslims are a threat, which is a classic example of name-calling and labeling.",
+      "feedbacks": "['', '', '']",
+      "reviewer_models": "['minimax', 'mistral', 'chatgpt']",
+      "gold": "C",
+      "elapsed": "44.9"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "",
+      "judge_decision": "None",
+      "judge_raw": "",
+      "feedbacks": "['', 'The text contains a clear instance of repetition, as the poll question \"Who should replace Nikki Haley as our ambassador to the U.N.?\" is repeated verbatim three times in succession. This rhetorical device is used to emphasize the question and engage the reader. Therefore, the correct answer i",
+      "reviewer_models": "['minimax', 'mistral', 'chatgpt']",
+      "gold": "C",
+      "elapsed": "36.3"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "",
+      "judge_decision": "None",
+      "judge_raw": "C",
+      "feedbacks": "['Let me analyze this question carefully.\\n\\nThe question asks which tactic is used in the provided text about the Las Vegas shooter (Stephen Paddock).\\n\\nLet me look at the text and identify what tactics might be present:\\n\\n1. **Causal Oversimplification** - This would involve presenting a complex",
+      "reviewer_models": "['minimax', 'mistral', 'chatgpt']",
+      "gold": "D",
+      "elapsed": "35.4"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "B",
+      "judge_decision": "True",
+      "judge_raw": "A. True",
+      "feedbacks": "['The question asks: \"Which of the following tactics is used in the following text?\" Then choices: A: Obfuscation Vagueness Confusion, B: Guilt by Association, C: False Dilemma No Choice, D: Appeal to Popularity.\\n\\nWe need to determine which rhetorical tactic is used in the article about Cardinal M",
+      "reviewer_models": "['minimax', 'mistral', 'chatgpt']",
+      "gold": "C",
+      "elapsed": "35.1"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "",
+      "judge_decision": "None",
+      "judge_raw": "",
+      "feedbacks": "['Looking at this article, I need to identify what rhetorical or journalistic tactic is being used.\\n\\nThe article describes an incident where a teenage boy wearing a MAGA hat was attacked at Whataburger. Notably, the boy himself states: \"I support', '', '']",
+      "reviewer_models": "['minimax', 'mistral', 'chatgpt']",
+      "gold": "C",
+      "elapsed": "34.9"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "B",
+      "judge_decision": "True",
+      "judge_raw": "A. True",
+      "feedbacks": "['The comment uses guilt by association to discredit Church leadership. It connects Cardinal Wuerl and Pope Francis with the abuse', 'The proposed answer, **B: Guilt by Association**, is correct. The \"REMNANT COMMENT\" in the text explicitly links the abuse scandal involving specific clergy and bisho",
+      "reviewer_models": "['minimax', 'mistral', 'chatgpt']",
+      "gold": "C",
+      "elapsed": "26.1"
+    },
+    {
+      "abstain": "True",
+      "original_answer": "",
+      "judge_decision": "False",
+      "judge_raw": "The correct answer is B: Appeal to Hypocrisy. The text accuses Gary Wills of hypocrisy by claiming he misrepresents the Qur'an, omits key verses, and makes false statements about the author (Robert Spencer), thereby undermining his credibility and his claims about the Qur'an's peaceful nature.",
+      "feedbacks": "['The user asks: \"Question: Which of the following tactics is used in the following text?\\n\\nArticle: Foolish Religion Author Gary Wills: ‘The Religion of the Qur’an Is a Religion of Peace’ ...\"\\n\\nThey give four answer options:\\n\\nA: Causal Oversimplification\\nB: Appeal to Hypocrisy\\nC: Appeal to P",
+      "reviewer_models": "['minimax', 'mistral', 'chatgpt']",
+      "gold": "A",
+      "elapsed": "45.5"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "",
+      "judge_decision": "None",
+      "judge_raw": "D: Doubt",
+      "feedbacks": "['The question: \"Which of the following tactics is used in the following text?\" Options: A: Appeal to Hypocrisy, B: Appeal to Popularity, C: Straw Man, D: Doubt.\\n\\nWe need to determine which rhetorical tactic the text uses.\\n\\nLet\\'s examine the article. The article is about Archbishop Viganò\\'s st",
+      "reviewer_models": "['minimax', 'mistral', 'chatgpt']",
+      "gold": "D",
+      "elapsed": "43.6"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "B",
+      "judge_decision": "True",
+      "judge_raw": "A. True",
+      "feedbacks": "['The answer', 'The proposed answer (B: Loaded Language) is correct. The text uses emotionally charged terms such as \"dragging their heels,\" \"betraying the interest,\" \"wishy-washy,\" and \"rotten inner workings\" to evoke a negative response and shape the reader\\'s perception without relying on factual",
+      "reviewer_models": "['minimax', 'mistral', 'chatgpt']",
+      "gold": "B",
+      "elapsed": "35.7"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "",
+      "judge_decision": "None",
+      "judge_raw": "",
+      "feedbacks": "['', '', '']",
+      "reviewer_models": "['minimax', 'mistral', 'chatgpt']",
+      "gold": "D",
+      "elapsed": "39.0"
+    }
+  ]
+}

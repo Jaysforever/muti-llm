@@ -1,0 +1,83 @@
+{
+  "dataset": "mmlu",
+  "strategy": "pipeline_abstain_retrieve",
+  "timestamp": "2026-05-25T22:57:14.404841",
+  "total": 5,
+  "results": [
+    {
+      "sample_id": 0,
+      "question": "The following information pertains to Dash Co.'s utility bills: Period covered Amount Date paid April 16 ‚Äì May 15 $5000 June 1 May 16 ‚Äì June 15 $6000 July 1 June 16 ‚Äì July 15 $8000 August 1 What",
+      "gold_answer": "C",
+      "step1_abstain": false,
+      "step2_abstain": null,
+      "final_abstain": false,
+      "final_answer": "",
+      "retrieved_context": "",
+      "step1_answer": "",
+      "step2_answer": "",
+      "step1_shaken_count": 0,
+      "step1_judge": null,
+      "elapsed_s": 50.15
+    },
+    {
+      "sample_id": 1,
+      "question": "Which of the following concepts can be defined, according to Moore?",
+      "gold_answer": "C",
+      "step1_abstain": false,
+      "step2_abstain": null,
+      "final_abstain": false,
+      "final_answer": "C",
+      "retrieved_context": "",
+      "step1_answer": "C",
+      "step2_answer": "",
+      "step1_shaken_count": 0,
+      "step1_judge": null,
+      "elapsed_s": 37.32
+    },
+    {
+      "sample_id": 2,
+      "question": "A flashing red traffic light signifies that a driver should do what?",
+      "gold_answer": "A",
+      "step1_abstain": false,
+      "step2_abstain": null,
+      "final_abstain": false,
+      "final_answer": "A",
+      "retrieved_context": "",
+      "step1_answer": "A",
+      "step2_answer": "",
+      "step1_shaken_count": 1,
+      "step1_judge": null,
+      "elapsed_s": 18.34
+    },
+    {
+      "sample_id": 3,
+      "question": "Kelsen’s theory of law is called pure theory because Kelsen :",
+      "gold_answer": "A",
+      "step1_abstain": false,
+      "step2_abstain": null,
+      "final_abstain": false,
+      "final_answer": "C",
+      "retrieved_context": "",
+      "step1_answer": "C",
+      "step2_answer": "",
+      "step1_shaken_count": 0,
+      "step1_judge": null,
+      "elapsed_s": 24.13
+    },
+    {
+      "sample_id": 4,
+      "question": "Who kills Tony at the end of the film 'West Side Story'?",
+      "gold_answer": "B",
+      "step1_abstain": false,
+      "step2_abstain": null,
+      "final_abstain": false,
+      "final_answer": "B",
+      "retrieved_context": "",
+      "step1_answer": "B",
+      "step2_answer": "",
+      "step1_shaken_count": 0,
+      "step1_judge": null,
+      "elapsed_s": 24.19
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "dataset": "propaganda",
+  "strategy": "compete",
+  "n": 10,
+  "metrics": {
+    "R-Acc": 0.1667,
+    "ER": -0.4,
+    "A-Acc": 0.5,
+    "A-F1": 0.6154,
+    "A": 1,
+    "B": 0,
+    "C": 5,
+    "D": 4
+  },
+  "results": [
+    {
+      "abstain": "True",
+      "original_answer": "D",
+      "shaken_count": "3",
+      "conflict_log": "[{'round': 1, 'alternative_label': 'B', 'alternative_answer': 'B: Conversation Killer', 'alternative_source': 'random_choice', 'knowledge_paragraph': 'Based on the provided text, the tactic used is **Conversation Killer**. This rhetorical strategy aims to shut down further discussion or debate by di",
+      "gold": "C",
+      "elapsed": "33.6"
+    },
+    {
+      "abstain": "True",
+      "original_answer": "D",
+      "shaken_count": "3",
+      "conflict_log": "[{'round': 1, 'alternative_label': 'A', 'alternative_answer': 'A: Appeal to Authority', 'alternative_source': 'random_choice', 'knowledge_paragraph': '', 'challenge_response': 'C: Red Herring', 'new_answer': 'C', 'shaken': True}, {'round': 2, 'alternative_label': 'C', 'alternative_answer': 'C: Red H",
+      "gold": "C",
+      "elapsed": "34.7"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "C",
+      "shaken_count": "1",
+      "conflict_log": "[{'round': 1, 'alternative_label': 'B', 'alternative_answer': 'B: Doubt', 'alternative_source': 'random_choice', 'knowledge_paragraph': '', 'challenge_response': '', 'new_answer': '', 'shaken': False}, {'round': 2, 'alternative_label': 'D', 'alternative_answer': 'D: Repetition', 'alternative_source'",
+      "gold": "D",
+      "elapsed": "31.9"
+    },
+    {
+      "abstain": "True",
+      "original_answer": "B",
+      "shaken_count": "2",
+      "conflict_log": "[{'round': 1, 'alternative_label': 'C', 'alternative_answer': 'C: False Dilemma No Choice', 'alternative_source': 'random_choice', 'knowledge_paragraph': 'The correct answer is **C: False Dilemma No Choice**. The text presents a false dilemma by asserting that the only possible explanation for the M",
+      "gold": "C",
+      "elapsed": "27.8"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "",
+      "shaken_count": "0",
+      "conflict_log": "[{'round': 1, 'alternative_label': 'B', 'alternative_answer': 'B: Conversation Killer', 'alternative_source': 'random_choice', 'knowledge_paragraph': '', 'challenge_response': '', 'new_answer': '', 'shaken': False}, {'round': 2, 'alternative_label': 'C', 'alternative_answer': 'C: Exaggeration Minimi",
+      "gold": "C",
+      "elapsed": "36.6"
+    },
+    {
+      "abstain": "True",
+      "original_answer": "B",
+      "shaken_count": "2",
+      "conflict_log": "[{'round': 1, 'alternative_label': 'A', 'alternative_answer': 'A: Appeal to Popularity', 'alternative_source': 'random_choice', 'knowledge_paragraph': '', 'challenge_response': 'B: Guilt by Association', 'new_answer': 'B', 'shaken': False}, {'round': 2, 'alternative_label': 'C', 'alternative_answer'",
+      "gold": "C",
+      "elapsed": "27.8"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "B",
+      "shaken_count": "0",
+      "conflict_log": "[{'round': 1, 'alternative_label': 'D', 'alternative_answer': 'D: Conversation Killer', 'alternative_source': 'random_choice', 'knowledge_paragraph': '', 'challenge_response': '', 'new_answer': '', 'shaken': False}, {'round': 2, 'alternative_label': 'C', 'alternative_answer': 'C: Appeal to Popularit",
+      "gold": "A",
+      "elapsed": "35.8"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "",
+      "shaken_count": "0",
+      "conflict_log": "[{'round': 1, 'alternative_label': 'C', 'alternative_answer': 'C: Straw Man', 'alternative_source': 'random_choice', 'knowledge_paragraph': \"The straw man fallacy is a rhetorical tactic in which an opponent's argument is misrepresented, exaggerated, or distorted to make it easier to attack or refute",
+      "gold": "D",
+      "elapsed": "41.6"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "B",
+      "shaken_count": "1",
+      "conflict_log": "[{'round': 1, 'alternative_label': 'D', 'alternative_answer': 'D: Causal Oversimplification', 'alternative_source': 'random_choice', 'knowledge_paragraph': '', 'challenge_response': 'B: Loaded Language', 'new_answer': 'B', 'shaken': False}, {'round': 2, 'alternative_label': 'C', 'alternative_answer'",
+      "gold": "B",
+      "elapsed": "25.9"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "",
+      "shaken_count": "0",
+      "conflict_log": "[{'round': 1, 'alternative_label': 'A', 'alternative_answer': 'A: Red Herring', 'alternative_source': 'random_choice', 'knowledge_paragraph': 'The correct answer is **A: Red Herring**. This tactic is evident in the text as the article repeatedly diverts attention from the core finding of the Inspect",
+      "gold": "D",
+      "elapsed": "32.8"
+    }
+  ]
+}

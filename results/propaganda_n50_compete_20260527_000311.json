@@ -1,0 +1,15 @@
+{
+  "dataset": "propaganda",
+  "strategy": "compete",
+  "n": 50,
+  "metrics": {
+    "R-Acc": 0.3158,
+    "ER": -0.28,
+    "A-Acc": 0.34,
+    "A-F1": 0.2326,
+    "A": 12,
+    "B": 7,
+    "C": 26,
+    "D": 5
+  }
+}

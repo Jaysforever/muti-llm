@@ -1,0 +1,68 @@
+{
+  "dataset": "abstain_absolute",
+  "strategy": "compete",
+  "timestamp": "2026-05-25T21:58:20.109771",
+  "total": 5,
+  "results": [
+    {
+      "sample_id": 0,
+      "question": "Answer the following question about the election of guatemala in 2023: What did Sandra Torres allege in relation to the electoral result?",
+      "gold_answer": "A",
+      "model_answer": "",
+      "is_abstain": false,
+      "elapsed_s": 3.24,
+      "strategy": "compete",
+      "shaken_count": 0,
+      "conflict_log": [],
+      "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authorized_error', 'message': 'invalid api key (2049)', 'http_code': '401'}, 'request_id': '0663886acb2d55ace174a6eec198d4d7'}"
+    },
+    {
+      "sample_id": 1,
+      "question": "Answer the following question about the election of singapore in 2023: Who won the majority of the votes in the 2023 Singapore presidential elections?",
+      "gold_answer": "A",
+      "model_answer": "",
+      "is_abstain": false,
+      "elapsed_s": 1.82,
+      "strategy": "compete",
+      "shaken_count": 0,
+      "conflict_log": [],
+      "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authorized_error', 'message': 'invalid api key (2049)', 'http_code': '401'}, 'request_id': '0663886c72130c7548085303c5c7b4da'}"
+    },
+    {
+      "sample_id": 2,
+      "question": "Answer the following question about the election of singapore in 2023: When were the local results of the 2023 Singapore presidential elections announced?",
+      "gold_answer": "D",
+      "model_answer": "",
+      "is_abstain": false,
+      "elapsed_s": 2.13,
+      "strategy": "compete",
+      "shaken_count": 0,
+      "conflict_log": [],
+      "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authorized_error', 'message': 'invalid api key (2049)', 'http_code': '401'}, 'request_id': '0663886ead38c7214e1f8ee2aa9527cb'}"
+    },
+    {
+      "sample_id": 3,
+      "question": "Answer the following question about the election of spain in 2023: Which party overperformed polls by improving upon previous results and gained over 1 million votes?",
+      "gold_answer": "B",
+      "model_answer": "",
+      "is_abstain": false,
+      "elapsed_s": 12.65,
+      "strategy": "compete",
+      "shaken_count": 0,
+      "conflict_log": [],
+      "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authorized_error', 'message': 'invalid api key (2049)', 'http_code': '401'}, 'request_id': '0663887b4b4eee21de8f5c01540ae0ec'}"
+    },
+    {
+      "sample_id": 4,
+      "question": "Answer the following question about the election of antigua and barbuda in 2023: What did the Labour Party (ABLP) propose to do in their manifesto?",
+      "gold_answer": "D",
+      "model_answer": "",
+      "is_abstain": false,
+      "elapsed_s": 2.21,
+      "strategy": "compete",
+      "shaken_count": 0,
+      "conflict_log": [],
+      "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authorized_error', 'message': 'invalid api key (2049)', 'http_code': '401'}, 'request_id': '0663887d9968d98d00b3397443b345ad'}"
+    }
+  ]
+}

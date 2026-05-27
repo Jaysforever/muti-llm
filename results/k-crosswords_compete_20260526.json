@@ -1,0 +1,97 @@
+{
+  "dataset": "k-crosswords",
+  "strategy": "compete",
+  "n": 10,
+  "metrics": {
+    "R-Acc": 0.1,
+    "ER": -0.8,
+    "A-Acc": 0.1,
+    "A-F1": 0.0,
+    "A": 1,
+    "B": 0,
+    "C": 9,
+    "D": 0
+  },
+  "results": [
+    {
+      "abstain": "False",
+      "original_answer": "",
+      "shaken_count": "0",
+      "conflict_log": "[{'round': 1, 'alternative_label': 'D', 'alternative_answer': 'D: blank 1: Avram_Davidson; blank 2: 29_Acacia_Avenue; blank 3: Silver_Bear_for_Best_Actress;', 'alternative_source': 'random_choice', 'knowledge_paragraph': '', 'challenge_response': '', 'new_answer': '', 'shaken': False}, {'round': 2, ",
+      "gold": "A",
+      "elapsed": "39.6"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "",
+      "shaken_count": "0",
+      "conflict_log": "[{'round': 1, 'alternative_label': 'C', 'alternative_answer': 'C: blank 1: Joel_Goldsmith; blank 2: Tress_MacNeille; blank 3: Kedi_(2006_film); blank 4: Avatar_(2009_film);', 'alternative_source': 'random_choice', 'knowledge_paragraph': '', 'challenge_response': '', 'new_answer': '', 'shaken': False",
+      "gold": "A",
+      "elapsed": "38.7"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "",
+      "shaken_count": "0",
+      "conflict_log": "[{'round': 1, 'alternative_label': 'B', 'alternative_answer': 'B: blank 1: Philippe_II,_Duke_of_Orléans; blank 2: Chelsea_Girls; blank 3: Paul_Dano;', 'alternative_source': 'random_choice', 'knowledge_paragraph': '', 'challenge_response': '', 'new_answer': '', 'shaken': False}, {'round': 2, 'alterna",
+      "gold": "A",
+      "elapsed": "38.0"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "",
+      "shaken_count": "0",
+      "conflict_log": "[{'round': 1, 'alternative_label': 'B', 'alternative_answer': 'B: blank 1: wordnet_piano_103928116; blank 2: male;', 'alternative_source': 'random_choice', 'knowledge_paragraph': '', 'challenge_response': '', 'new_answer': '', 'shaken': False}, {'round': 2, 'alternative_label': 'C', 'alternative_ans",
+      "gold": "A",
+      "elapsed": "41.2"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "",
+      "shaken_count": "0",
+      "conflict_log": "[{'round': 1, 'alternative_label': 'D', 'alternative_answer': \"D: blank 1: Georges_Delerue; blank 2: Maureen_O'Sullivan; blank 3: Templeton_Prize;\", 'alternative_source': 'random_choice', 'knowledge_paragraph': '', 'challenge_response': '', 'new_answer': '', 'shaken': False}, {'round': 2, 'alternati",
+      "gold": "B",
+      "elapsed": "37.8"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "",
+      "shaken_count": "0",
+      "conflict_log": "[{'round': 1, 'alternative_label': 'D', 'alternative_answer': 'D: blank 1: Global_War_on_Terrorism_Expeditionary_Medal; blank 2: male;', 'alternative_source': 'random_choice', 'knowledge_paragraph': '', 'challenge_response': '', 'new_answer': '', 'shaken': False}, {'round': 2, 'alternative_label': '",
+      "gold": "C",
+      "elapsed": "40.3"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "B",
+      "shaken_count": "0",
+      "conflict_log": "[{'round': 1, 'alternative_label': 'A', 'alternative_answer': 'A: blank 1: male; blank 2: Ringo_Starr;', 'alternative_source': 'random_choice', 'knowledge_paragraph': '', 'challenge_response': 'B: blank 1: female; blank 2: Britney_Spears;', 'new_answer': 'B', 'shaken': False}, {'round': 2, 'alternat",
+      "gold": "B",
+      "elapsed": "33.0"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "",
+      "shaken_count": "0",
+      "conflict_log": "[{'round': 1, 'alternative_label': 'C', 'alternative_answer': 'C: blank 1: Free_Jimmy; blank 2: Karl_Urban; blank 3: Simon_Pegg;', 'alternative_source': 'random_choice', 'knowledge_paragraph': '', 'challenge_response': '', 'new_answer': '', 'shaken': False}, {'round': 2, 'alternative_label': 'A', 'a",
+      "gold": "C",
+      "elapsed": "39.5"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "",
+      "shaken_count": "0",
+      "conflict_log": "[{'round': 1, 'alternative_label': 'B', 'alternative_answer': 'B: blank 1: Gregory_Nava; blank 2: Marc_Anthony; blank 3: Selena_(film);', 'alternative_source': 'random_choice', 'knowledge_paragraph': \"The biographical film *Selena* (1997) was directed by Gregory Nava, who helmed the story of the ico",
+      "gold": "B",
+      "elapsed": "36.1"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "",
+      "shaken_count": "0",
+      "conflict_log": "[{'round': 1, 'alternative_label': 'A', 'alternative_answer': \"A: blank 1: Siân_Phillips; blank 2: Murphy's_War; blank 3: Wee_Willie_Winkie_(film); blank 4: Peter_O'Toole; blank 5: Phyllis_Coates;\", 'alternative_source': 'random_choice', 'knowledge_paragraph': '', 'challenge_response': '', 'new_answ",
+      "gold": "C",
+      "elapsed": "36.4"
+    }
+  ]
+}

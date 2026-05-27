@@ -1,0 +1,15 @@
+{
+  "dataset": "hellaswag",
+  "strategy": "compete",
+  "n": 50,
+  "metrics": {
+    "R-Acc": 0.3514,
+    "ER": -0.22,
+    "A-Acc": 0.3,
+    "A-F1": 0.1026,
+    "A": 13,
+    "B": 11,
+    "C": 24,
+    "D": 2
+  }
+}

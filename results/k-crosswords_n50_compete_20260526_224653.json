@@ -1,0 +1,15 @@
+{
+  "dataset": "k-crosswords",
+  "strategy": "compete",
+  "n": 50,
+  "metrics": {
+    "R-Acc": 0.08,
+    "ER": -0.84,
+    "A-Acc": 0.08,
+    "A-F1": 0.0,
+    "A": 4,
+    "B": 0,
+    "C": 46,
+    "D": 0
+  }
+}

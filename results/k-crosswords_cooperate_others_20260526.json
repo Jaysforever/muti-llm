@@ -1,0 +1,117 @@
+{
+  "dataset": "k-crosswords",
+  "strategy": "cooperate_others",
+  "n": 10,
+  "metrics": {
+    "R-Acc": 0.0,
+    "ER": -1.0,
+    "A-Acc": 0.0,
+    "A-F1": 0.0,
+    "A": 0,
+    "B": 0,
+    "C": 10,
+    "D": 0
+  },
+  "results": [
+    {
+      "abstain": "False",
+      "original_answer": "",
+      "judge_decision": "None",
+      "judge_raw": "",
+      "feedbacks": "['The problem: we have constraints and need pick the correct answer for each blank that satisfies all constraints.\\n\\nGiven constraints:\\n\\n(blank 1, hasWonPrize, blank 3);\\n(blank 1, actedIn, blank 2);\\n(Isabelle_Adjani, hasWonPrize, blank 3);\\n(Hanna_Schygulla, hasWonPrize, blank 3);\\n(Ulu_Grosbar",
+      "reviewer_models": "['minimax', 'mistral', 'chatgpt']",
+      "gold": "A",
+      "elapsed": "45.2"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "",
+      "judge_decision": "None",
+      "judge_raw": "",
+      "feedbacks": "['We need to parse the problem statement. The question: \"Pick the correct answer for each blank that satisfies all the given constraints.\" Constraints are given as a set of triples (subject, predicate, object) with blanks. Each blank refers to a variable (blank1, blank2, blank3, blank4). The constra",
+      "reviewer_models": "['minimax', 'mistral', 'chatgpt']",
+      "gold": "A",
+      "elapsed": "40.8"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "",
+      "judge_decision": "None",
+      "judge_raw": "",
+      "feedbacks": "['', '', '']",
+      "reviewer_models": "['minimax', 'mistral', 'chatgpt']",
+      "gold": "A",
+      "elapsed": "32.8"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "",
+      "judge_decision": "None",
+      "judge_raw": "",
+      "feedbacks": "['', '', '']",
+      "reviewer_models": "['minimax', 'mistral', 'chatgpt']",
+      "gold": "A",
+      "elapsed": "37.5"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "",
+      "judge_decision": "None",
+      "judge_raw": "",
+      "feedbacks": "['', '', '']",
+      "reviewer_models": "['minimax', 'mistral', 'chatgpt']",
+      "gold": "B",
+      "elapsed": "40.1"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "",
+      "judge_decision": "None",
+      "judge_raw": "",
+      "feedbacks": "['The question: \"Pick the correct answer for each blank that satisfies all the given constraints.\"\\n\\nConstraints:\\n\\n1. (Macoumba_Kandji, hasGender, blank 2);\\n2. (Louis_I_of_Hungary, hasWonPrize, blank 1);\\n3. (Louis_I_of_Hungary, hasGender, blank 2);\\n4. (Corny_Thompson, hasGender, blank 2);\\n5. ",
+      "reviewer_models": "['minimax', 'mistral', 'chatgpt']",
+      "gold": "C",
+      "elapsed": "28.7"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "",
+      "judge_decision": "None",
+      "judge_raw": "",
+      "feedbacks": "['We need to parse the question.\\n\\nThe question: \"Pick the correct answer for each blank that satisfies all the given constraints.\"\\n\\nConstraints:\\n- (Missy_Elliott, hasGender, blank 1);\\n- (blank 2, hasWonPrize, Grammy_Award);\\n- (blank 2, hasGender, blank 1);\\n- (blank 2, actedIn, Crossroads_(20",
+      "reviewer_models": "['minimax', 'mistral', 'chatgpt']",
+      "gold": "B",
+      "elapsed": "51.2"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "",
+      "judge_decision": "None",
+      "judge_raw": "",
+      "feedbacks": "['The problem: We have a set of constraints about blanks (blank 1, blank 2, blank 3). Options are given with possible values for blanks.\\n\\nWe need to pick the correct answer (A, B, C, D) such that all constraints are satisfied.\\n\\nConstraints:\\n\\n(blank 2, actedIn, Pathfinder_(2007_film));\\n(blank ",
+      "reviewer_models": "['minimax', 'mistral', 'chatgpt']",
+      "gold": "C",
+      "elapsed": "32.3"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "",
+      "judge_decision": "None",
+      "judge_raw": "",
+      "feedbacks": "['We need to analyze the given constraints and pick the answer that satisfies them. Let\\'s restate.\\n\\nConstraints:\\n\\n- (Jennifer_Lopez, actedIn, blank 3)\\n- (Jennifer_Lopez, isMarriedTo, blank 2)\\n- (blank 1, directed, blank 3)\\n- (blank 2, isMarriedTo, Jennifer_Lopez)\\n- (Dave_Grusin, wroteMusicF",
+      "reviewer_models": "['minimax', 'mistral', 'chatgpt']",
+      "gold": "B",
+      "elapsed": "34.3"
+    },
+    {
+      "abstain": "False",
+      "original_answer": "",
+      "judge_decision": "None",
+      "judge_raw": "",
+      "feedbacks": "['', '', '']",
+      "reviewer_models": "['minimax', 'mistral', 'chatgpt']",
+      "gold": "C",
+      "elapsed": "29.6"
+    }
+  ]
+}

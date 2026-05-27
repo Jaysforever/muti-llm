@@ -1,0 +1,223 @@
+{
+  "dataset": "abstain_absolute",
+  "strategy": "compete",
+  "timestamp": "2026-05-25T22:22:15.729721",
+  "total": 5,
+  "results": [
+    {
+      "sample_id": 0,
+      "question": "Answer the following question about the election of guatemala in 2023: What did Sandra Torres allege in relation to the electoral result?",
+      "gold_answer": "A",
+      "model_answer": "A",
+      "is_abstain": false,
+      "elapsed_s": 116.73,
+      "strategy": "compete",
+      "shaken_count": 1,
+      "conflict_log": [
+        {
+          "round": 1,
+          "alternative_label": "B",
+          "alternative_answer": "B: Opening of electoral boxes",
+          "alternative_source": "random_choice",
+          "knowledge_paragraph": "The user wants: \"Question: Answer the following question about the election of Guatemala in 2023: What did Sandra Torres allege in relation to the electoral result? Generate a knowledge paragraph about B: Opening of electoral boxes:\"\n\nSo the user wants an answer to \"What did Sandra Torres allege in ",
+          "challenge_response": "Based on the knowledge, Sandra Torres alleged that the electoral result was fraudulent, claiming irregularities and manipulation in the vote count. Therefore, the correct answer is **A: Electoral frau",
+          "new_answer": "",
+          "shaken": false
+        },
+        {
+          "round": 2,
+          "alternative_label": "C",
+          "alternative_answer": "C: False signatures",
+          "alternative_source": "random_choice",
+          "knowledge_paragraph": "The user asks: \"Question: Answer the following question about the election of Guatemala in 2023: What did Sandra Torres allege in relation to the electoral result? Generate a knowledge paragraph about C: False signatures:\"\n\nInterpretation: The user wants to answer the question about the election of ",
+          "challenge_response": "C: False signatures\n\n**Knowledge paragraph about false signatures:**  \nIn the context of the 2023 Guatemalan general election, false signatures were a central element of the allegations made by losing",
+          "new_answer": "C",
+          "shaken": true
+        },
+        {
+          "round": 3,
+          "alternative_label": "D",
+          "alternative_answer": "D: Constitutional Court injunction",
+          "alternative_source": "random_choice",
+          "knowledge_paragraph": "<think>The user asks: \"Question: Answer the following question about the election of Guatemala in 2023: What did Sandra Torres allege in relation to the electoral result? Generate a knowledge paragraph about D: Constitutional Court injunction:\"\n\nSo they want a short answer: what did Sandra Torres al",
+          "challenge_response": "**Answer:** A: Electoral fraud\n\n**Knowledge paragraph about D: Constitutional Court injunction:**  \nIn the context of Guatemala's 2023 presidential election, the Constitutional Court (Corte de Constit",
+          "new_answer": "",
+          "shaken": false
+        }
+      ],
+      "error": ""
+    },
+    {
+      "sample_id": 1,
+      "question": "Answer the following question about the election of singapore in 2023: Who won the majority of the votes in the 2023 Singapore presidential elections?",
+      "gold_answer": "A",
+      "model_answer": "A",
+      "is_abstain": false,
+      "elapsed_s": 29.85,
+      "strategy": "compete",
+      "shaken_count": 0,
+      "conflict_log": [
+        {
+          "round": 1,
+          "alternative_label": "D",
+          "alternative_answer": "D: Halimah Yacob",
+          "alternative_source": "random_choice",
+          "knowledge_paragraph": "<think>The user asks:\n\n\"Question: Answer the following question about the election of singapore in 2023: Who won the majority of the votes in the 2023 Singapore presidential elections? Generate a knowledge paragraph about D: Halimah Yacob:\"\n\nThe user wants a factual answer regarding who won the majo",
+          "challenge_response": "A: Tharman Shanmugaratnam",
+          "new_answer": "A",
+          "shaken": false
+        },
+        {
+          "round": 2,
+          "alternative_label": "B",
+          "alternative_answer": "B: Ng Kok Song",
+          "alternative_source": "random_choice",
+          "knowledge_paragraph": "<think>The user is asking: \"Question: Answer the following question about the election of singapore in 2023: Who won the majority of the votes in the 2023 Singapore presidential elections? Generate a knowledge paragraph about B: Ng Kok Song:\"\n\nSo they want an answer about who won the majority of vot",
+          "challenge_response": "A: Tharman Shanmugaratnam",
+          "new_answer": "A",
+          "shaken": false
+        },
+        {
+          "round": 3,
+          "alternative_label": "C",
+          "alternative_answer": "C: Tan Kin Lian",
+          "alternative_source": "random_choice",
+          "knowledge_paragraph": "<think>The user asks:\n\n\"Question: Answer the following question about the election of singapore in 2023: Who won the majority of the votes in the 2023 Singapore presidential elections? Generate a knowledge paragraph about C: Tan Kin Lian:\"\n\nThus we need to answer: Who won the majority of votes in th",
+          "challenge_response": "Tharman Shanmugaratnam won the majority of the votes in the 2023 Singapore presidential election, receiving approximately 70.4% of the vote.\n\nTan Kin Lian was a candidate in the 2023 Singapore preside",
+          "new_answer": "A",
+          "shaken": false
+        }
+      ],
+      "error": ""
+    },
+    {
+      "sample_id": 2,
+      "question": "Answer the following question about the election of singapore in 2023: When were the local results of the 2023 Singapore presidential elections announced?",
+      "gold_answer": "D",
+      "model_answer": "A",
+      "is_abstain": true,
+      "elapsed_s": 49.12,
+      "strategy": "compete",
+      "shaken_count": 3,
+      "conflict_log": [
+        {
+          "round": 1,
+          "alternative_label": "D",
+          "alternative_answer": "D: 2 September",
+          "alternative_source": "random_choice",
+          "knowledge_paragraph": "<think>The user asks: \"Question: Answer the following question about the election of singapore in 2023: When were the local results of the 2023 Singapore presidential elections announced? Generate a knowledge paragraph about D: 2 September:\"\n\nWe need to answer when the local results of the 2023 Sing",
+          "challenge_response": "D: 2 September\n\nThe local results of the 2023 Singapore presidential election were announced on 2 September 2023. Polling day was held on 1 September, and after votes were counted overnight, the Elect",
+          "new_answer": "D",
+          "shaken": true
+        },
+        {
+          "round": 2,
+          "alternative_label": "C",
+          "alternative_answer": "C: 12 September",
+          "alternative_source": "random_choice",
+          "knowledge_paragraph": "The user asks: \"Question: Answer the following question about the election of singapore in 2023: When were the local results of the 2023 Singapore presidential elections announced? Generate a knowledge paragraph about C: 12 September:\"\n\nThey seem to want a knowledge paragraph about \"C: 12 September\"",
+          "challenge_response": "C: 12 September",
+          "new_answer": "C",
+          "shaken": true
+        },
+        {
+          "round": 3,
+          "alternative_label": "B",
+          "alternative_answer": "B: 14 September",
+          "alternative_source": "random_choice",
+          "knowledge_paragraph": "The user asks:\n\n\"Question: Answer the following question about the election of singapore in 2023: When were the local results of the 2023 Singapore presidential elections announced? Generate a knowledge paragraph about B: 14 September:\"\n\nSo they want to answer: \"When were the local results of the 20",
+          "challenge_response": "B: 14 September",
+          "new_answer": "B",
+          "shaken": true
+        }
+      ],
+      "error": ""
+    },
+    {
+      "sample_id": 3,
+      "question": "Answer the following question about the election of spain in 2023: Which party overperformed polls by improving upon previous results and gained over 1 million votes?",
+      "gold_answer": "B",
+      "model_answer": "",
+      "is_abstain": false,
+      "elapsed_s": 59.69,
+      "strategy": "compete",
+      "shaken_count": 0,
+      "conflict_log": [
+        {
+          "round": 1,
+          "alternative_label": "B",
+          "alternative_answer": "B: Spanish Socialist Workers' Party (PSOE)",
+          "alternative_source": "random_choice",
+          "knowledge_paragraph": "<think>Hmm, the user is asking about the 2023 Spanish election, specifically which party overperformed polls and gained over 1 million votes. They also want a knowledge paragraph about the Spanish Socialist Workers' Party (PSOE). \n\nOkay, first I need to confirm the details. The 2023 Spanish general ",
+          "challenge_response": "B: Spanish Socialist Workers' Party (PSOE)",
+          "new_answer": "B",
+          "shaken": false
+        },
+        {
+          "round": 2,
+          "alternative_label": "C",
+          "alternative_answer": "C: Vox",
+          "alternative_source": "random_choice",
+          "knowledge_paragraph": "<think>\nThe user asks: \"Question: Answer the following question about the election of spain in 2023: Which party overperformed polls by improving upon previous results and gained over 1 million votes? Generate a knowledge paragraph about C: Vox:\"\n\nThus they want a short answer: Which party overperfo",
+          "challenge_response": "",
+          "new_answer": "",
+          "shaken": false
+        },
+        {
+          "round": 3,
+          "alternative_label": "D",
+          "alternative_answer": "D: Sumar",
+          "alternative_source": "random_choice",
+          "knowledge_paragraph": "<think>The user asks: \"Question: Answer the following question about the election of spain in 2023: Which party overperformed polls by improving upon previous results and gained over 1 million votes? Generate a knowledge paragraph about D: Sumar:\"\n\nInterpretation: The user wants to answer a question",
+          "challenge_response": "",
+          "new_answer": "",
+          "shaken": false
+        }
+      ],
+      "error": ""
+    },
+    {
+      "sample_id": 4,
+      "question": "Answer the following question about the election of antigua and barbuda in 2023: What did the Labour Party (ABLP) propose to do in their manifesto?",
+      "gold_answer": "D",
+      "model_answer": "D",
+      "is_abstain": true,
+      "elapsed_s": 45.86,
+      "strategy": "compete",
+      "shaken_count": 2,
+      "conflict_log": [
+        {
+          "round": 1,
+          "alternative_label": "A",
+          "alternative_answer": "A: Raise the minimum wage",
+          "alternative_source": "random_choice",
+          "knowledge_paragraph": "<think>Hmm, the user is asking about the Antigua and Barbuda Labour Party's (ABLP) 2023 election manifesto proposals, specifically about raising the minimum wage. They want a knowledge paragraph on that topic. \n\nI recall the ABLP has been in power for years, and their 2023 manifesto focused on econo",
+          "challenge_response": "A: Raise the minimum wage",
+          "new_answer": "A",
+          "shaken": true
+        },
+        {
+          "round": 2,
+          "alternative_label": "C",
+          "alternative_answer": "C: Support a stable water supply",
+          "alternative_source": "random_choice",
+          "knowledge_paragraph": "<think>Hmm, the user is asking two distinct things: one about the 2023 Antiguan and Barbudan election and another about \"C: Support a stable water supply\" as a knowledge paragraph. \n\nFirst, I need to recall the 2023 election context. The Antigua and Barbuda Labour Party (ABLP) won, and their manifes",
+          "challenge_response": "C: Support a stable water supply",
+          "new_answer": "C",
+          "shaken": true
+        },
+        {
+          "round": 3,
+          "alternative_label": "B",
+          "alternative_answer": "B: Rebuild the sea landing in Barbuda",
+          "alternative_source": "random_choice",
+          "knowledge_paragraph": "<think>\nThe user asks:\n\n\"Question: Answer the following question about the election of Antigua and Barbuda in 2023: What did the Labour Party (ABLP) propose to do in their manifesto? Generate a knowledge paragraph about B: Rebuild the sea landing in Barbuda:\"\n\nSo user wants us to answer: what did th",
+          "challenge_response": "",
+          "new_answer": "",
+          "shaken": false
+        }
+      ],
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,328 @@
+{
+  "dataset": "mmlu",
+  "strategy": "cooperate_others",
+  "timestamp": "2026-05-26T00:38:29.087878",
+  "total": 20,
+  "results": [
+    {
+      "sample_id": 0,
+      "question": "The following information pertains to Dash Co.'s utility bills: Period covered Amount Date paid April 16 ‚Äì May 15 $5000 June 1 May 16 ‚Äì June 15 $6000 July 1 June 16 ‚Äì July 15 $8000 August 1 What",
+      "gold_answer": "C",
+      "model_answer": "",
+      "is_abstain": false,
+      "judge_decision": null,
+      "elapsed_s": 39.78,
+      "strategy": "cooperate_others",
+      "feedbacks": [
+        "",
+        "",
+        ""
+      ],
+      "error": ""
+    },
+    {
+      "sample_id": 1,
+      "question": "Which of the following concepts can be defined, according to Moore?",
+      "gold_answer": "C",
+      "model_answer": "",
+      "is_abstain": false,
+      "judge_decision": null,
+      "elapsed_s": 37.1,
+      "strategy": "cooperate_others",
+      "feedbacks": [
+        "",
+        "The correct answer is C: horse. According to G.E. Moore, \"good\" and \"yellow\" are simple, indefinable concepts, whereas \"horse\" is a complex concept that can be defined by its properties.",
+        ""
+      ],
+      "error": ""
+    },
+    {
+      "sample_id": 2,
+      "question": "A flashing red traffic light signifies that a driver should do what?",
+      "gold_answer": "A",
+      "model_answer": "A",
+      "is_abstain": false,
+      "judge_decision": true,
+      "elapsed_s": 41.48,
+      "strategy": "cooperate_others",
+      "feedbacks": [
+        "# Feedback on the Proposed Answer\n\n**Answer: A (stop)** ✓\n\nThis answer is **correct**.\n\n**Reasoning:** A flashing red traffic light functions the same as a stop sign. Drivers are required to:\n1. Come to a complete stop\n2. Yield to other traffic and pedestrians\n3. Proceed only when it is safe to do so\n\n**Why the other options are incorrect:**\n- **B (speed up)** - This is dangerous and illegal\n- **C (proceed with caution)** - That rule applies to a flashing yellow light, not a flashing red light\n- **D (honk the horn)** - There is no traffic rule requiring drivers to honk at a flashing red light\n\nThe answer A is correct.",
+        "The proposed answer (A: stop) is correct. A flashing red traffic light is treated as a stop sign, requiring drivers to come to a complete stop before proceeding when safe.",
+        "The proposed answer is correct. A flashing red traffic light is legally equivalent to a stop sign, requiring drivers to come to a complete stop before proceeding when it is safe. Therefore, \"stop\" (option A) is the appropriate choice."
+      ],
+      "error": ""
+    },
+    {
+      "sample_id": 3,
+      "question": "Kelsen’s theory of law is called pure theory because Kelsen :",
+      "gold_answer": "A",
+      "model_answer": "C",
+      "is_abstain": false,
+      "judge_decision": true,
+      "elapsed_s": 27.32,
+      "strategy": "cooperate_others",
+      "feedbacks": [
+        "**Review of the Proposed Answer:**\n\n**Correct Answer: C - Separated law from religion, ethics, sociology and history**\n\n**Feedback:**\n\nThis answer is **correct**.\n\nHans Kelsen's \"Pure Theory of Law\" (Reine Rechtslehre) is called \"pure\" precisely because Kelsen sought to free legal science from all extra-legal influences. His main objective was to study law as a self-contained normative system, keeping it strictly separate from:\n\n- **Ethics and Morality** - He rejected the idea that law should be defined by moral standards\n- **Sociology** - He separated legal norms from social facts\n- **History** - He focused on the structural analysis of law rather than its historical development\n- **Religion** - He maintained that law operates independently of religious doctrine\n- **Politics** - He argued for value-free legal analysis\n\nKelsen believed that once law becomes",
+        "The provided answer (C) is correct. Kelsen's Pure Theory of Law is called \"pure\" because it seeks to isolate legal analysis from extraneous fields such as morality, ethics, sociology, history, and religion, focusing solely on the normative structure of law itself. Options A, B, and D misrepresent or contradict Kelsen's core aim.",
+        "The proposed answer (C) is correct. Kelsen's Pure Theory of Law is termed \"pure\" because it seeks to separate law from extraneous elements such as morality, religion, sociology, and history, focusing exclusively on legal norms and their hierarchical structure."
+      ],
+      "error": ""
+    },
+    {
+      "sample_id": 4,
+      "question": "Who kills Tony at the end of the film 'West Side Story'?",
+      "gold_answer": "B",
+      "model_answer": "B",
+      "is_abstain": false,
+      "judge_decision": true,
+      "elapsed_s": 22.88,
+      "strategy": "cooperate_others",
+      "feedbacks": [
+        "The proposed answer is **correct**.\n\nIn *West Side Story*, Tony is killed by **Chino** (choice B). After Tony kills Bernardo during the rumble, Chino shoots Tony in revenge. Tony dies in Maria's arms at the end of the film.",
+        "The proposed answer is correct. In the film *West Side Story*, Tony is killed by Chino, who shoots him in retaliation for the deaths of Bernardo and Riff. Options A, C, and D are incorrect: Riff is killed by Bernardo earlier, Bernardo is killed by Tony, and Tony does not kill himself. Therefore, the answer B is accurate.",
+        "The proposed answer (B: Chino) is correct. In the film *West Side Story*, Tony is shot and killed by Chino, Bernardo's friend, after Maria's intervention fails. Riff is killed by Bernardo earlier, and Bernardo is killed by Tony. Tony does not commit suicide. Therefore, the correct choice is B."
+      ],
+      "error": ""
+    },
+    {
+      "sample_id": 5,
+      "question": "Which movie popularized the phrase \"You talkin' to me?\"",
+      "gold_answer": "B",
+      "model_answer": "B",
+      "is_abstain": false,
+      "judge_decision": true,
+      "elapsed_s": 15.85,
+      "strategy": "cooperate_others",
+      "feedbacks": [
+        "The proposed answer is **correct**.\n\n**Explanation:** The phrase \"You talkin' to me?\" is one of the most iconic lines from the 1976 film *Taxi Driver*, starring Robert De Niro as the disturbed cab driver Travis Bickle. The scene features Travis talking to himself in a mirror, practicing what he would say to potential threats.\n\nThe other options are incorrect:\n- *Ghostbusters* is known for \"Who you gonna call?\" not this phrase\n- *Joker* (2019) has its own memorable lines but not this one\n- *Groundhog Day* has the famous \"I'm a god\" and \"Gobbler\" scene, but not this quote\n\nYour answer of **B: Taxi Driver** is accurate.",
+        "The proposed answer (B: Taxi Driver) is correct. The phrase \"You talkin' to me?\" was famously delivered by Robert De Niro's character, Travis Bickle, in Martin Scorsese's 1976 film *Taxi Driver*. None of the other listed movies are associated with this iconic line.",
+        "The proposed answer (B: Taxi Driver) is correct. The phrase \"You talkin' to me?\" was popularized by the 1976 film *Taxi Driver*, in which Robert De Niro's character, Travis Bickle, delivers the line while rehearsing a confrontation. None of the other options (Ghost Busters, Joker, Groundhog Day) are associated with this iconic quote."
+      ],
+      "error": ""
+    },
+    {
+      "sample_id": 6,
+      "question": "Compared with the current in an LED lamp the current in the connecting wire is",
+      "gold_answer": "C",
+      "model_answer": "C",
+      "is_abstain": false,
+      "judge_decision": true,
+      "elapsed_s": 41.07,
+      "strategy": "cooperate_others",
+      "feedbacks": [
+        "We need to examine the question and answer:\n\nQuestion: \"Compared with the current in an LED lamp the current in the connecting wire is\nA: less.\nB: more.\nC: the same.\nD: Need more information.\"\n\nWe need to evaluate which is correct.\n\nInterpretation: The LED lamp consumes some current, the connecting wire is the conductor that carries the current from the source to the LED lamp. If the LED lamp is connected in series with the wire (i.e., the current flows through the LED and then through the wire back to the source), then the current in the wire is equal to the current through the LED (assuming series). However, if the wire is not in series? Typically, connecting wires have negligible resistance, and current through them is same as the load.\n\nBut the question may be about: In an LED lamp (which contains multiple LED elements?), does the current in the connecting wire differ from the current in the lamp? If the lamp uses series/parallel combination, the current through each branch may be less than total? Or the question could be about connecting wire vs LED lamp: The LED lamp may have internal wiring that splits current among many LED chips; the main feed wire will carry the sum current while each LED branch has a portion. But the question as given may be simplistic: The current in the connecting wire is same as that in the LED lamp because the wire is part of the circuit: the same current flows through. So answer C (the same) is correct.\n\nBut need to double-check context: The phrase \"current in an LED lamp\" might refer to the current through the LED component itself (the diode). And the connecting wire connecting the lamp to power supply? The LED lamp may have internal wiring that distributes the current to multiple LEDs. The connecting wire from the supply to the lamp carries total current which is larger than the current in each individual LED? Not necessarily: The total current through the wire is sum of currents of parallel LED strings. So the current in the connecting wire would be greater than current in each individual LED. But the question seems to ask about current \"in the LED lamp\", maybe meaning the lamp as a whole draws current? The connecting wire \"in the connecting wire\" is ambiguous.\n\nWe need to consider typical physics/electrical exam: Compare the current in an LED lamp with the current in the connecting wire. Typically, in a series circuit, current is same throughout. So answer C: same. But the phrase \"LED lamp\" suggests the lamp itself includes a driver",
+        "The answer C is correct. In a typical circuit, the connecting wires are in series with the LED lamp, so the current flowing through the wires is the same as the current through the lamp. No additional information is needed, as the series connection ensures current is constant throughout the loop.",
+        "The proposed answer (C: the same) is correct. In a series circuit, the current is constant throughout all components. The connecting wire and the LED lamp are part of the same closed loop, so the current flowing through the wire must equal the current flowing through the lamp. Any other answer would contradict the basic principle of series circuits."
+      ],
+      "error": ""
+    },
+    {
+      "sample_id": 7,
+      "question": "Upper Egypt is ________ of Lower Egypt.",
+      "gold_answer": "B",
+      "model_answer": "B",
+      "is_abstain": false,
+      "judge_decision": true,
+      "elapsed_s": 20.86,
+      "strategy": "cooperate_others",
+      "feedbacks": [
+        "**Feedback: Correct Answer**\n\nThe answer **B: south** is correct.\n\n**Explanation:** Despite the potentially counterintuitive naming convention, Upper Egypt is geographically located to the south of Lower Egypt. This is because:\n\n- **Upper Egypt** refers to the southern region of ancient Egypt, located upstream along the Nile River (higher elevation)\n- **Lower Egypt** refers to the northern delta region near the Mediterranean Sea (lower elevation/closer to sea level)\n\nThe naming convention comes from the flow of the Nile River—traveling \"upstream\" from the Mediterranean Delta toward Upper Egypt means traveling south.",
+        "The proposed answer (B: south) is correct. Upper Egypt refers to the southern region of Egypt, while Lower Egypt is the northern delta region, as the Nile flows from south to north.",
+        "The proposed answer is correct. Upper Egypt is located to the south of Lower Egypt, as the Nile flows from south to north, with Upper Egypt being the upstream region and Lower Egypt the downstream delta region. Therefore, option B (south) is accurate."
+      ],
+      "error": ""
+    },
+    {
+      "sample_id": 8,
+      "question": "Which of the following responsibilities of a human resources manager would have the most negative impact on a company if performed incorrectly?",
+      "gold_answer": "C",
+      "model_answer": "",
+      "is_abstain": false,
+      "judge_decision": true,
+      "elapsed_s": 34.64,
+      "strategy": "cooperate_others",
+      "feedbacks": [
+        "**Answer: C - Ensuring company compliance with laws and regulations**\n\n**Reasoning:**\n\nWhile all options have negative consequences when performed incorrectly, compliance failures represent the most severe potential impact:\n\n1. **Legal and Financial Consequences**: Non-compliance can result in massive fines, legal penalties, and back taxes/wages that could financially cripple a company.\n\n2. **Lawsuits and Litigation**: Violations of labor laws, workplace safety regulations, anti-discrimination laws, or privacy regulations can lead to costly lawsuits and settlements.\n\n3. **Criminal Liability**: In serious cases (such as workplace safety violations leading to injury or discriminatory practices), executives can face personal criminal charges.\n\n4. **Reputational Damage**: Compliance failures often receive public attention and can permanently damage a company's reputation and brand.\n\n5. **Business Survival**: In extreme cases, compliance failures can result in loss of business licenses or forced closure.\n\nIn contrast:\n- **A** (bad hires",
+        "",
+        "**Answer:**  \nC: Ensuring company compliance with laws and regulations\n\n**Feedback:**  \nThis answer is correct. Among the listed responsibilities, failure to ensure compliance with laws and regulations can have the most severe and immediate negative impact on a company. Non-compliance can lead to lawsuits, government fines, loss of licenses, reputational damage, and even criminal liability. While errors in recruiting, development, or compensation filing can cause problems (e.g., bad hires, employee dissatisfaction,"
+      ],
+      "error": ""
+    },
+    {
+      "sample_id": 9,
+      "question": "A therapist used the Rorschach inkblot test to help him analyze his patient's problems. He was most likely a",
+      "gold_answer": "A",
+      "model_answer": "A",
+      "is_abstain": false,
+      "judge_decision": true,
+      "elapsed_s": 22.7,
+      "strategy": "cooperate_others",
+      "feedbacks": [
+        "**Feedback on the proposed answer (A: psychoanalyst)**  \n\n✅ **Correct.**  \n\n**Why:**  \n- The Rorschach ink‑blot test is a classic *projective* assessment tool. Its purpose is to tap into unconscious thoughts, feelings, and conflicts—core concerns of psychoanalytic/psychodynamic therapy.  \n- Psychoanalysts (and other psychodynamically‑oriented clinicians) routinely use such projective tests to gain insight into a patient’s inner world.  \n- **Person‑",
+        "The proposed answer (A: psychoanalyst) is correct. The Rorschach inkblot test is a projective assessment rooted in psychoanalytic theory, used to explore unconscious processes and conflicts. Psychoanalysts are the most likely among the listed professionals to employ such a tool, as person-centered therapists prioritize client self-direction, behavioral psychologists emphasize observable behavior, and clinical social workers typically rely on broader diagnostic and therapeutic approaches rather than projective tests.",
+        "The proposed answer is correct. The Rorschach inkblot test is a projective assessment tool rooted in psychoanalytic theory, designed to uncover unconscious thoughts and conflicts. Therefore, a therapist using it is most likely a psychoanalyst. The other options (person-centered therapist, behavioral psychologist, certified clinical social worker) do not typically employ this test as a primary diagnostic method."
+      ],
+      "error": ""
+    },
+    {
+      "sample_id": 10,
+      "question": "Suppose you live on the Moon. How long is a day (i.e. from sunrise to sunrise)?",
+      "gold_answer": "C",
+      "model_answer": "",
+      "is_abstain": false,
+      "judge_decision": null,
+      "elapsed_s": 31.66,
+      "strategy": "cooperate_others",
+      "feedbacks": [
+        "",
+        "The correct answer is **C: 29 Earth days** (approximately 29.5 days, the length of a lunar day from sunrise to sunrise). This is due to the Moon's synchronous rotation and its orbit around Earth.\n\nThe other options are incorrect:\n- A (18 years) is roughly the Saros cycle for eclipses.\n- B (24 hours) is an Earth day.\n- D (a year) is the time for Earth to orbit the Sun.\n\nThus, C is the accurate choice.",
+        "The correct answer is **C: 29 Earth days**. The lunar day (from one sunrise to the next) lasts about 29.5 Earth days, corresponding to the Moon's synodic period. This is due to the Moon's synchronous rotation (its rotation period equals its orbital period) combined with its orbit around Earth.  \n\nSince"
+      ],
+      "error": ""
+    },
+    {
+      "sample_id": 11,
+      "question": "The weight of an object on the moon, m, is about q of the object’s weight on Earth, e. Which equation represents the approximate weight of an object on the moon in terms of the object's weight on Eart",
+      "gold_answer": "B",
+      "model_answer": "B",
+      "is_abstain": false,
+      "judge_decision": null,
+      "elapsed_s": 26.68,
+      "strategy": "cooperate_others",
+      "feedbacks": [
+        "**Feedback**\n\nThe question states that the weight of an object on the Moon, **m**, is about **q** of its weight on Earth, **e**. In plain terms this means that the Moon’s gravity is a fraction q of Earth’s gravity, so the Moon’s weight is obtained by multiplying the Earth weight by that fraction:\n\n\\[\nm = q \\; e .\n\\]\n\nSince the Moon’s gravity is roughly \\(q = \\frac{1}{6}\\) of Earth’s, we substitute:\n\n\\[\nm = \\frac{1}{6}\\,e \\quad\\text{or}\\quad m = \\frac{e}{6}.\n\\]\n\nLooking at the answer choices:\n\n- **A:** \\(m = \\frac{1}{6} + e\\)  (Adds \\(\\frac{1}{6}\\) to the Earth weight – incorrect.)\n- **B:** \\(m = \\frac{e}{6}\\)    (Exactly the relationship described – correct.)\n- **C:** \\(m = 6 + e\\)     (Adds 6 to the Earth weight – incorrect.)\n- **D:** \\(m = 6e\\)",
+        "The correct answer is B because the weight on the moon is approximately one-sixth of the weight on Earth, which is expressed as \\( m = \\frac{e}{6} \\).",
+        "The proposed answer (B) is correct. The weight on the moon is approximately 1/6 of the weight on Earth, so the equation is \\( m = \\frac{e}{6} \\)."
+      ],
+      "error": ""
+    },
+    {
+      "sample_id": 12,
+      "question": "Which of the following interventions is most effective at facilitating the education of gifted students?",
+      "gold_answer": "D",
+      "model_answer": "",
+      "is_abstain": false,
+      "judge_decision": true,
+      "elapsed_s": 32.9,
+      "strategy": "cooperate_others",
+      "feedbacks": [
+        "# Evaluation of Answer\n\n**Answer: D - Providing acceleration for gifted students, especially within the areas of their interests and skills**\n\n## Feedback on Correctness: CORRECT\n\nThis is the most appropriate answer based on educational research.\n\n### Why D is Correct:\n- **Research support**: Multiple studies (including seminal work by gifted education researchers like VanTassel-Baska and Colangelo) consistently demonstrate that acceleration is one of the most effective interventions for gifted learners\n- **Addresses the core need**: Acceleration directly addresses the fundamental educational need of gifted students—access to appropriately challenging material at a pace matched to their abilities\n- **Flexibility**: When tailored to student interests and",
+        "The correct answer is **D: Providing acceleration for gifted students, especially within the areas of their interests and skills**. This intervention is widely supported by research as highly effective because it allows gifted students to progress at a pace and depth that matches their advanced abilities, preventing boredom and promoting intellectual growth. Acceleration can include grade skipping, subject acceleration, or advanced placement, and tailoring it to students' interests further enhances engagement and motivation.\n\nWhile the other options have some merits, they are generally less effective for maximizing the potential of gifted learners:\n- **A** (heterogeneous grouping) may help with social skills but often fails to provide sufficient academic challenge.\n- **B** (independent research projects) can be beneficial but is typically more effective when combined with acceleration or enrichment.\n- **C** (cooperative learning) can lead to gifted students taking on teaching roles rather than advancing their own learning, reducing its effectiveness.\n\nThus, option D is the most evidence-based and impactful intervention.",
+        "The correct answer is **D: Providing acceleration for gifted students, especially within the areas of their interests and skills**.\n\n### Feedback on Correctness:\nExtensive research in gifted education consistently shows that academic acceleration—such as grade skipping, subject acceleration, or advanced placement—is one of the most effective interventions for meeting the needs of gifted learners. Acceleration allows students to move through material at a pace appropriate for their abilities, preventing boredom and disengagement while fostering deeper learning in areas of strength and interest. Options A and C (heterogeneous grouping and cooperative learning) often fail to provide sufficient challenge, as gifted students may be used as peer tutors rather than being pushed to their own potential. Option B (independent research projects) can be beneficial but is typically more effective when combined with acceleration or other forms of differentiation; on its own, it may not address the need for advanced content and pacing. Thus, D is the most evidence-based and broadly effective choice"
+      ],
+      "error": ""
+    },
+    {
+      "sample_id": 13,
+      "question": "These factors increase risk of osteoporotic fracture:\n",
+      "gold_answer": "D",
+      "model_answer": "D",
+      "is_abstain": false,
+      "judge_decision": true,
+      "elapsed_s": 38.06,
+      "strategy": "cooperate_others",
+      "feedbacks": [
+        "",
+        "The proposed answer (D: Poor muscle strength) is correct. Poor muscle strength increases the risk of falls and fractures, particularly in individuals with osteoporosis. High bone mineral density, high body weight, and high lean mass are generally protective factors, not risk factors.",
+        "The proposed answer (D: Poor muscle strength) is correct. Poor muscle strength increases the risk of falls and fractures, especially in individuals with osteoporosis. In contrast, high bone mineral density, high body weight, and high lean mass are generally protective against osteoporotic fractures."
+      ],
+      "error": ""
+    },
+    {
+      "sample_id": 14,
+      "question": "How can several different proteins be produced from the same gene?",
+      "gold_answer": "C",
+      "model_answer": "C",
+      "is_abstain": false,
+      "judge_decision": null,
+      "elapsed_s": 20.41,
+      "strategy": "cooperate_others",
+      "feedbacks": [
+        "",
+        "The proposed answer (C) is correct. Alternative RNA splicing allows a single gene to produce multiple mRNA variants by selectively including or excluding different exons, leading to the synthesis of different protein isoforms. The other options are incorrect: selective transcription of different DNA parts would involve different genes or promoters, not the same gene; lengthening mRNA by doubling or tripling is not a natural process; and simply splicing the mRNA after transcription (option D) is too vague and does not capture the specificity of alternative splicing.",
+        "The answer is correct. Alternative RNA splicing allows a single gene to produce multiple mRNA variants by selectively including or excluding exons, leading to different protein products. This is a well-established mechanism, while the other options describe processes that are not standard or accurate for generating protein diversity from one gene."
+      ],
+      "error": ""
+    },
+    {
+      "sample_id": 15,
+      "question": "When older and younger workers have lost their jobs, older workers typically",
+      "gold_answer": "B",
+      "model_answer": "B",
+      "is_abstain": true,
+      "judge_decision": false,
+      "elapsed_s": 35.02,
+      "strategy": "cooperate_others",
+      "feedbacks": [
+        "**Feedback on the proposed answer:**\n\n**B: Take longer to find a new job** — This is the **correct** answer.\n\n**Explanation:**\nResearch and labor statistics consistently show that older workers typically experience longer spells of unemployment compared to younger workers when they lose their jobs. This is due to several factors:\n\n- **Age discrimination** in hiring practices (despite being illegal under the ADEA)\n- **Higher wage expectations** based on their experience level\n- **Skills mismatch** with available positions\n- **Employer concerns** about adaptability, technology proficiency, or longevity in the role\n- **Limited job options** that match their qualifications and salary requirements\n\n**Why the other options are incorrect:**\n- **A:** While experience is valuable, it does not typically result in faster reemployment.\n- **C:** Some older workers may retire, but \"typically\" is not accurate as many continue job searching.\n- **D:** Filing an ADEA lawsuit is a legal action regarding age",
+        "The proposed answer (B) is correct. Research and labor market data consistently show that older workers tend to experience longer periods of unemployment compared to younger workers due to factors such as age discrimination, higher salary expectations, and a narrower range of job opportunities. Option A is not supported by typical outcomes, as experience does not generally offset these barriers. Options C and D describe possible but less common responses, not the typical pattern. Therefore, the chosen answer is accurate.",
+        "The proposed answer (B) is correct. Empirical evidence and labor market studies consistently show that older workers tend to experience longer periods of unemployment after job loss compared to younger workers, due to factors such as age discrimination, skill mismatch, and higher reservation wages. Options A, C, and D are not typical outcomes in most cases."
+      ],
+      "error": ""
+    },
+    {
+      "sample_id": 16,
+      "question": "At the break-even point",
+      "gold_answer": "C",
+      "model_answer": "B",
+      "is_abstain": false,
+      "judge_decision": null,
+      "elapsed_s": 48.13,
+      "strategy": "cooperate_others",
+      "feedbacks": [
+        "",
+        "",
+        ""
+      ],
+      "error": ""
+    },
+    {
+      "sample_id": 17,
+      "question": "Which of the following statements about a price ceiling is accurate?",
+      "gold_answer": "A",
+      "model_answer": "A",
+      "is_abstain": false,
+      "judge_decision": true,
+      "elapsed_s": 24.87,
+      "strategy": "cooperate_others",
+      "feedbacks": [
+        "**Answer A is correct.**  \n\nAn effective price ceiling is a legally imposed maximum price that must be set **below** the market‑clearing (equilibrium) price; otherwise it would be non‑binding and have no effect on the market.  \n\n- **Option B** is wrong: a ceiling reduces the quantity supplied (or at least does not increase it) because producers find it less profitable to sell at the lower price.  \n- **Option C** is wrong: a price ceiling does not shift the demand curve; it creates a shortage by moving the market along the existing supply curve.  \n- **Option D** is also wrong because a ceiling does affect the quantity supplied (typically decreasing it).  \n\nTherefore, the accurate statement is **A**.",
+        "The provided answer (A) is correct. An effective price ceiling is set below the equilibrium price, which creates a shortage by reducing the quantity supplied and increasing the quantity demanded. The other statements are false: a price ceiling decreases the quantity supplied (B), does not shift demand or supply curves (C), and does affect the quantity supplied (D).",
+        "The proposed answer (A) is correct. An effective (binding) price ceiling is set below the equilibrium price, which leads to a shortage as quantity demanded exceeds quantity supplied. The other statements are inaccurate: a price ceiling typically reduces the quantity supplied (not increases it), does not shift the demand curve (only causes movement along it), and does have an effect on the quantity supplied (it decreases)."
+      ],
+      "error": ""
+    },
+    {
+      "sample_id": 18,
+      "question": "Recent genomic analyses of Neandertals and modern human populations indicate that:",
+      "gold_answer": "A",
+      "model_answer": "A",
+      "is_abstain": false,
+      "judge_decision": true,
+      "elapsed_s": 22.98,
+      "strategy": "cooperate_others",
+      "feedbacks": [
+        "**Feedback on the proposed answer**\n\nThe statement you selected—**Answer A**—is the correct one.\n\n**Why A is correct**  \n- Modern genomic studies (e.g., Green et al. 2010, Prüfer et al. 2014, 2017, and subsequent works) consistently show that non‑African individuals carry **≈1 %–4 % of their ancestry from Neanderthals**. This proportion is highest in populations with European and East Asian ancestry",
+        "The proposed answer (A) is correct. Extensive genomic studies have shown that non-African modern humans carry 1–4% Neandertal DNA due to interbreeding, while Africans have little to none. Options B, C, and D contradict established evidence.",
+        "The proposed answer (A) is correct. Genomic studies consistently show that modern humans with European and Asian ancestry carry between 1% and 4% Neanderthal DNA, resulting from interbreeding that occurred after the out-of-Africa migration. Options B, C, and D contradict established findings."
+      ],
+      "error": ""
+    },
+    {
+      "sample_id": 19,
+      "question": "Women's world record performances have improved rapidly in recent years mainly because:",
+      "gold_answer": "D",
+      "model_answer": "D",
+      "is_abstain": false,
+      "judge_decision": true,
+      "elapsed_s": 31.87,
+      "strategy": "cooperate_others",
+      "feedbacks": [
+        "The proposed answer **D** is correct.\n\n**Feedback:**\n\nThe correct answer is **D: more women are now engaged in sport**.\n\nThis is the best explanation because:\n\n- **A is incorrect:** Human evolution does not occur on a timescale of decades that would account for recent improvements.\n- **B is incorrect:** Women have not surpassed men in athletic performance—this remains false.\n- **C is partially true** but is not the primary driver of record improvements.\n- **D is correct:** The dramatic improvement in women's world records is largely explained by the exponential increase in female participation in athletics over recent decades. More participants means a larger talent pool, more competition, greater investment, better training methods, and improved support structures—all contributing to rapid performance improvements.\n\nThe surge in women's sports participation, combined with increased visibility and professionalization, has been the primary driver of record-breaking performances in women's athletics.",
+        "The proposed answer (D) is correct. The rapid improvement in women's world record performances in recent years is primarily attributed to the significant increase in the number of women participating in sports. This expanded talent pool, combined with better training, nutrition, and societal support, has driven faster times and higher achievements. The other options are less plausible: A is false because evolutionary changes in muscle mass take far longer than a few decades; B is factually incorrect as women generally do not run faster than men; and C, while possibly a contributing factor, is not the main reason compared to the broad impact of increased participation.",
+        "The proposed answer (D) is correct. The rapid improvement in women's world record performances in recent years is primarily attributed to a significant increase in the number of women participating in sports. This expanded participation has led to a larger talent pool, greater competition, improved coaching, and better access to training resources—all of which drive performance gains. While factors like earlier training (C) may contribute, they are a consequence of increased engagement. Options A and B are incorrect: evolutionary changes in muscle mass occur over much longer timescales, and women still do not outrun men in comparable events."
+      ],
+      "error": ""
+    }
+  ]
+}
